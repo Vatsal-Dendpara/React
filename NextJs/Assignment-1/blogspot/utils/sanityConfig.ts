@@ -4,7 +4,7 @@ export const config: ClientConfig = {
   projectId: "kga4x4qi",
   dataset: "production",
   apiVersion: "2023-10-10",
-  useCdn: false,
+  useCdn: true,
 };
 
 const client = createClient(config);

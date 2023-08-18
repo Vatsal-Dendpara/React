@@ -80,3 +80,25 @@ export async function getBookmarkBlogs(slugs: any) {
   })
   return data;
 }
+
+
+export const mockLoginApi = async () => {
+  let res = await fetch(
+    `${process.env.NEXT_PUBLIC_AUTH_RESTPOINT}/users/login`,
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        login: process.env.MOCK_EMAIL,
+        password: process.env.MOCK_PASSWORD,
+        // expiresInMins: 60, // optional
+      }),
+    }
+  );
+
+  const user = await res.json();
+  if (!user || user.message)
+    return null;
+
+  return user;
+}

@@ -1,7 +1,7 @@
 'use-client';
 
 
-const openDB = async () => {
+export const openDB = async () => {
   return new Promise(async (resolve, reject) => {
     const openRequest = indexedDB.open('readingList', 1);
 
@@ -24,11 +24,17 @@ const openDB = async () => {
 
 
 export async function addBlogToReadingList(slug: string, userId: number) {
-  const db: any = await openDB()
-  const tx = await db.transaction(["readingList"], "readwrite");
-  const store = await tx.objectStore("readingList")
-  const data = await store.add({ slug, userId });
-  return data;
+  return new Promise<any>(async (resolve, reject) => {
+    const db: any = await openDB()
+    const tx = await db.transaction(["readingList"], "readwrite");
+    const store = await tx.objectStore("readingList")
+    const data = await store.add({ slug, userId });
+
+    data.onsuccess = () => {
+      resolve(data.result);
+    }
+  })
+
 }
 export async function getReadingListData() {
   return new Promise<any>(async (resolve, reject) => {
@@ -57,8 +63,15 @@ export async function getBlogBasedOnUserId(userId: number) {
 }
 
 export async function removeBlogFromList(id: number) {
-  const db: any = await openDB()
-  const tx = await db.transaction(["readingList"], "readwrite");
-  const store = await tx.objectStore("readingList")
-  const data = await store.delete(id);
+  return new Promise<any>(async (resolve, reject) => {
+    const db: any = await openDB()
+    const tx = await db.transaction(["readingList"], "readwrite");
+    const store = await tx.objectStore("readingList")
+    const data = await store.delete(id);
+
+    data.onsuccess = () => {
+      resolve(data.readyState)
+    }
+  })
+
 }

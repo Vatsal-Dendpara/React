@@ -70,7 +70,9 @@ const Header = () => {
                         height={30}
                         alt="User icon"
                       />
-                      <span className="ml-2">{session.user?.name}</span>
+                      <span className="ml-2" data-testid="name">
+                        {session.user?.name}
+                      </span>
                     </div>
                   </li>
                   <li>

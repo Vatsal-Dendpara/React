@@ -1,0 +1,1331 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Authentication should be able to get user name after login 1`] = `
+<div>
+  <header
+    class="w-full sm:px-0 lg:px-20 xl:px-20 md:px-20 py-3  bg-slate-900 text-white sticky top-0 z-10"
+  >
+    <nav
+      class="w-full"
+    >
+      <div>
+        <ul
+          class="flex justify-between flex-wrap items-center lg:flex-row md:flex-row xl:flex-row sm:flex-col"
+        >
+          <li>
+            <a
+              href="/blog"
+            >
+              <p
+                class="text-2xl font-bold text-center "
+              >
+                BlogSpot
+              </p>
+            </a>
+          </li>
+          <li>
+            <a
+              class="text-white mr-3 font-bold sm:text-sm md:text-base xl:text-base hover:text-black border border-slate-100 rounded-lg p-2  hover:bg-white"
+              href="/bookmark"
+            >
+              Reading List
+            </a>
+          </li>
+          <div
+            class="sm:flex sm:w-auto justify-between items-center w-full sm:py-4"
+          >
+            <li>
+              <div
+                class="text-lg font-semibold flex items-center justify-center text-white mr-5"
+              >
+                <img
+                  alt="User icon"
+                  data-nimg="1"
+                  decoding="async"
+                  height="30"
+                  loading="lazy"
+                  src="/_next/image?url=%2Fimg.jpg&w=64&q=75"
+                  srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=64&q=75 2x"
+                  style="color: transparent;"
+                  width="30"
+                />
+                <span
+                  class="ml-2"
+                  data-testid="name"
+                >
+                  jeffrafter
+                </span>
+              </div>
+            </li>
+            <li>
+              <div
+                class="font-bold"
+              >
+                <a
+                  class="text-white hover:text-black border sm:text-sm md:text-base xl:text-base border-slate-100 rounded-lg p-2 text-center hover:bg-white"
+                  href="/api/auth/singout"
+                >
+                  Logout
+                </a>
+              </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </nav>
+  </header>
+</div>
+`;
+
+exports[`Blog main Page should be able list all the blogs 1`] = `
+<div>
+  <div
+    class="grid py-5 gap-x-5 place-content-center  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+  >
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/how-to-reinvent-the-scrum-process-for-modern-distributed-teams"
+      >
+        <img
+          alt="how-to-reinvent-the-scrum-process-for-modern-distributed-teams"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fb6bbfc971f94c31f1d5b525d450c08b7692c76fd-5092x4000.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fb6bbfc971f94c31f1d5b525d450c08b7692c76fd-5092x4000.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fb6bbfc971f94c31f1d5b525d450c08b7692c76fd-5092x4000.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                AGILE
+              </p>
+              <p
+                class="mr-2"
+              >
+                PRODUCT DEVELOPMENT
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          How To Reinvent the Scrum Process for Modern Distributed Teams
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/why-your-business-should-take-the-whatsapp-chatbot-plunge"
+      >
+        <img
+          alt="why-your-business-should-take-the-whatsapp-chatbot-plunge"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fceb883493644436e057d91fe6d5240aedb355c59-4200x2800.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fceb883493644436e057d91fe6d5240aedb355c59-4200x2800.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fceb883493644436e057d91fe6d5240aedb355c59-4200x2800.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                BOT DEVELOPMENT
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          Why Your Business Should Take The WhatsApp Chatbot Plunge
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/your-go-to-chatbot-guide-101-all-you-need-to-know-about-chatbots"
+      >
+        <img
+          alt="your-go-to-chatbot-guide-101-all-you-need-to-know-about-chatbots"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F6b7b999d45e0ddba3c39965dc91cb97203fa0a1c-3840x2482.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F6b7b999d45e0ddba3c39965dc91cb97203fa0a1c-3840x2482.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F6b7b999d45e0ddba3c39965dc91cb97203fa0a1c-3840x2482.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                BOT DEVELOPMENT
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          Your Go-To Chatbot Guide 101 - All You Need to Know About Chatbots
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/how-is-ai-in-underwriting-poised-to-transform-the-insurance-industry"
+      >
+        <img
+          alt="how-is-ai-in-underwriting-poised-to-transform-the-insurance-industry"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fea072d1cf49de25b8cd4f8c8f5621c9972f6e7f9-7360x4912.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fea072d1cf49de25b8cd4f8c8f5621c9972f6e7f9-7360x4912.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fea072d1cf49de25b8cd4f8c8f5621c9972f6e7f9-7360x4912.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                AI
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          How is AI in Underwriting Poised to Transform the Insurance Industry?
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/how-to-manage-your-project-a-comprehensive-guide-to-project-management"
+      >
+        <img
+          alt="how-to-manage-your-project-a-comprehensive-guide-to-project-management"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fda83d84b18591bd99bea5572b43fac73efba32c5-5184x3456.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fda83d84b18591bd99bea5572b43fac73efba32c5-5184x3456.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fda83d84b18591bd99bea5572b43fac73efba32c5-5184x3456.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                AGILE
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          How to Manage Your Project: A Comprehensive Guide to Project Management
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/clinical-nlp-how-to-apply-nlp-for-ehr-optimization"
+      >
+        <img
+          alt="clinical-nlp-how-to-apply-nlp-for-ehr-optimization"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fa232a3ddb71481e58e4b6df9c3c31f91aff802bf-6016x4016.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fa232a3ddb71481e58e4b6df9c3c31f91aff802bf-6016x4016.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fa232a3ddb71481e58e4b6df9c3c31f91aff802bf-6016x4016.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                AI
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          Clinical NLP - How to Apply NLP for EHR Optimization
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/how-component-based-architecture-can-help-scale-front-end-development"
+      >
+        <img
+          alt="how-component-based-architecture-can-help-scale-front-end-development"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fc586a4b8163024b9dc046329193e19160ab82fcd-6000x4000.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fc586a4b8163024b9dc046329193e19160ab82fcd-6000x4000.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fc586a4b8163024b9dc046329193e19160ab82fcd-6000x4000.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                PRODUCT DEVELOPMENT
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          How Component-Based Architecture Can Help Scale Front-End Development
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/software-architecture-patterns-driving-scalability-and-performance"
+      >
+        <img
+          alt="software-architecture-patterns-driving-scalability-and-performance"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F3c0c0992fec1505953d569a9c424c8297ab25561-5472x3648.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F3c0c0992fec1505953d569a9c424c8297ab25561-5472x3648.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F3c0c0992fec1505953d569a9c424c8297ab25561-5472x3648.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                PRODUCT DEVELOPMENT
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          Software Architecture Patterns: Driving Scalability and Performance
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/this-is-a-blog-2"
+      >
+        <img
+          alt="this-is-a-blog-2"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fe2a81b9c4a5e51bbb9f0924cff52203dfbee9da8-5184x3456.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fe2a81b9c4a5e51bbb9f0924cff52203dfbee9da8-5184x3456.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fe2a81b9c4a5e51bbb9f0924cff52203dfbee9da8-5184x3456.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                SPACE
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          This is a blog 2
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/how-to-build-nlp-whatsapp-chatbot-with-dialogflow-5-easy-steps"
+      >
+        <img
+          alt="how-to-build-nlp-whatsapp-chatbot-with-dialogflow-5-easy-steps"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fa8320a5677c022645d630ad561835fea8fb84e0c-4896x3264.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fa8320a5677c022645d630ad561835fea8fb84e0c-4896x3264.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fa8320a5677c022645d630ad561835fea8fb84e0c-4896x3264.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                BOT DEVELOPMENT
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          How To Build NLP WhatsApp Chatbot With Dialogflow- 5 Easy Steps
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/micro-frontend-architecture-a-guide-to-scaling-frontend-development"
+      >
+        <img
+          alt="micro-frontend-architecture-a-guide-to-scaling-frontend-development"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fa58cfe9bd6d85e9f789dc73d1e25597bdc246f60-685x461.png&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fa58cfe9bd6d85e9f789dc73d1e25597bdc246f60-685x461.png&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2Fa58cfe9bd6d85e9f789dc73d1e25597bdc246f60-685x461.png&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                PRODUCT DEVELOPMENT
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          Micro-frontend Architecture - A Guide to Scaling Frontend Development
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/design-system-a-key-component-for-business-growth-and-success"
+      >
+        <img
+          alt="design-system-a-key-component-for-business-growth-and-success"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F6588c4fd58f8327e56c784b22153daf3cbd29390-8256x5504.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F6588c4fd58f8327e56c784b22153daf3cbd29390-8256x5504.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F6588c4fd58f8327e56c784b22153daf3cbd29390-8256x5504.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                PRODUCT DEVELOPMENT
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          Design System: A Key Component for Business Growth and Success
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/12-trends-you-need-to-know-about-mobile-application-development"
+      >
+        <img
+          alt="12-trends-you-need-to-know-about-mobile-application-development"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F7f38b518656bc046a5f358d999f25c10c9524110-2560x1707.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F7f38b518656bc046a5f358d999f25c10c9524110-2560x1707.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F7f38b518656bc046a5f358d999f25c10c9524110-2560x1707.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                PRODUCT DEVELOPMENT
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          12 Trends You Need to Know about Mobile Application Development
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/challenges-faced-by-businesses-in-adopting-machine-learning"
+      >
+        <img
+          alt="challenges-faced-by-businesses-in-adopting-machine-learning"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F984b30ad0321f15eb2003a155cad924d633a8863-5120x2880.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F984b30ad0321f15eb2003a155cad924d633a8863-5120x2880.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F984b30ad0321f15eb2003a155cad924d633a8863-5120x2880.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                AI
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          Challenges faced by Businesses in adopting Machine Learning
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/revolutionizing-paralegal-services-the-power-of-cognitive-computing"
+      >
+        <img
+          alt="revolutionizing-paralegal-services-the-power-of-cognitive-computing"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F584bed565dbaaf33d667f0d06a481c5ebe441115-5131x3421.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F584bed565dbaaf33d667f0d06a481c5ebe441115-5131x3421.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F584bed565dbaaf33d667f0d06a481c5ebe441115-5131x3421.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                AI
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          Revolutionizing Paralegal Services: The Power of Cognitive Computing
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/how-to-estimate-custom-software-development-costs-a-comprehensive-guide"
+      >
+        <img
+          alt="how-to-estimate-custom-software-development-costs-a-comprehensive-guide"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F4f9eb6dee9c9395d07689244c5dc0e4534d8cc62-3000x1987.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F4f9eb6dee9c9395d07689244c5dc0e4534d8cc62-3000x1987.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F4f9eb6dee9c9395d07689244c5dc0e4534d8cc62-3000x1987.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                SOFTWARE DEVELOPMENT PRACTICES
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          How to Estimate Custom Software Development Costs? A Comprehensive Guide
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/the-future-of-insurance-customer-service-whatsapp-chatbots"
+      >
+        <img
+          alt="the-future-of-insurance-customer-service-whatsapp-chatbots"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F2aeafc888f103baa5f40926273e72dcb73bb2940-6016x4016.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F2aeafc888f103baa5f40926273e72dcb73bb2940-6016x4016.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F2aeafc888f103baa5f40926273e72dcb73bb2940-6016x4016.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                AI
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          The Future of Insurance Customer Service: WhatsApp Chatbots
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/this-is-blog-1"
+      >
+        <img
+          alt="this-is-blog-1"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F5b979e2ce5448ebc4e2cfd3c0b3ee4445d7d0af6-7360x4912.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F5b979e2ce5448ebc4e2cfd3c0b3ee4445d7d0af6-7360x4912.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F5b979e2ce5448ebc4e2cfd3c0b3ee4445d7d0af6-7360x4912.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                TRAVELLING
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          This is blog 1
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/how-is-the-hotel-industry-using-ai-to-provide-an-awesome-user-experience"
+      >
+        <img
+          alt="how-is-the-hotel-industry-using-ai-to-provide-an-awesome-user-experience"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F45e9df2ffff7f4389aa57f5b12ef8a38d1be7afb-6296x5500.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F45e9df2ffff7f4389aa57f5b12ef8a38d1be7afb-6296x5500.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F45e9df2ffff7f4389aa57f5b12ef8a38d1be7afb-6296x5500.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                AI
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          How is the Hotel Industry using AI to provide an awesome User Experience?
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/empowering-your-citizen-developers-a-comprehensive-13-step-guide"
+      >
+        <img
+          alt="empowering-your-citizen-developers-a-comprehensive-13-step-guide"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F55a46502cf61035b7ee5a0418d204d8d06e9d5e7-5472x3648.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F55a46502cf61035b7ee5a0418d204d8d06e9d5e7-5472x3648.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F55a46502cf61035b7ee5a0418d204d8d06e9d5e7-5472x3648.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                LOW CODE NO CODE DEVELOPMENT
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          Empowering Your Citizen Developers: A Comprehensive 13-Step Guide
+        </p>
+      </div>
+    </div>
+    <div
+      class="hover:-translate-y-2 transition ease-in sm:w-[42%] xsm:w-[30%] md:w-[70%] xl:w-[75%] justify-center justify-self-center pt-5"
+    >
+      <a
+        href="blog/the-ultimate-guide-to-conversational-marketing-trends-benefits-and-more"
+      >
+        <img
+          alt="the-ultimate-guide-to-conversational-marketing-trends-benefits-and-more"
+          class="rounded-lg lg:w-80 lg:h-60 xl:w-96 xl:h-60 sm:w-96 sm:h-52 md:w-96 md:h-60 h-64"
+          data-nimg="1"
+          decoding="async"
+          height="80"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F8810f4daa8ab9bff4c2c62fcf7d5a9608e1a5066-3926x2355.jpg&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F8810f4daa8ab9bff4c2c62fcf7d5a9608e1a5066-3926x2355.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkga4x4qi%2Fproduction%2F8810f4daa8ab9bff4c2c62fcf7d5a9608e1a5066-3926x2355.jpg&w=640&q=75 2x"
+          style="color: transparent;"
+          width="200"
+        />
+      </a>
+      <div
+        class="py-6 xl:text- md:text-left lg:text-left"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <div
+            class="flex justify-between items-center"
+          >
+            <span
+              class="text-xs tracking-wider  font-semibold"
+            >
+              <p
+                class="mr-2"
+              >
+                BOT DEVELOPMENT
+              </p>
+            </span>
+          </div>
+          <img
+            alt="bookmark"
+            class="cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            height="22"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=48&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=32&q=75 1x, /_next/image?url=%2Fimg.jpg&w=48&q=75 2x"
+            style="color: transparent;"
+            title="Add to bookmark"
+            width="22"
+          />
+        </div>
+        <p
+          class="font-bold md:text-lg lg:text-xl sm:text-base xl:text-2xl pt-3 truncate"
+        >
+          The Ultimate Guide To Conversational Marketing: Trends, Benefits & More
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
